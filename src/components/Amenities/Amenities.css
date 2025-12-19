@@ -1,0 +1,111 @@
+
+
+.amenities {
+  background: linear-gradient(180deg, #0B1D26, #111111);
+  padding: 110px 20px;
+}
+
+.amenities-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.amenities-title {
+  font-size: 3.2rem;
+  color: gold;
+  margin-bottom: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+
+.amenities-subtitle {
+  color: #CFCFCF;
+  font-size: 1.15rem;
+  margin-bottom: 70px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+
+.amenity-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(0, 0, 0, 0.35)
+  );
+  border-radius: 22px;
+  padding: 42px 30px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.amenity-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.85);
+}
+
+
+.amenity-icon {
+  font-size: 3.4rem;
+  margin-bottom: 18px;
+  color: #C9A24D;
+}
+
+
+.amenity-card h3 {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.amenity-card p {
+  color: #CFCFCF;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 1024px) {
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .amenities-title {
+    font-size: 2.8rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .amenities {
+    padding: 90px 16px;
+  }
+
+  .amenities-title {
+    font-size: 2.4rem;
+  }
+
+  .amenities-subtitle {
+    font-size: 1.05rem;
+    margin-bottom: 50px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenity-card {
+    padding: 36px 26px;
+  }
+}
