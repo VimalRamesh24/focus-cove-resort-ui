@@ -1,28 +1,55 @@
-# Focus Cove – Resort Website (Frontend)
+🌴 Focus Cove Resort – Frontend Website
 
-A premium, responsive resort website built with React to showcase luxury stays, amenities, and a smooth booking UI.
+A premium, responsive frontend website for a luxury resort, built to demonstrate modern UI/UX design and React development skills.
 
-## Live Demo
-👉 https://zippy-kitsune-1ece3d.netlify.app/
+🌐 Live Website
 
-## Features
-- Full-screen hero section with premium visuals
-- Rooms & Suites listing with pricing
-- Amenities & experiences section
-- Image gallery with smooth transitions
-- Testimonials slider
-- Booking modal UI (Check-in / Check-out / Guests)
-- Fully responsive design
-- Smooth animations & interactions
+Netlify URL:
+👉 (https://zippy-kitsune-1ece3d.netlify.app/)
 
-## Tech Stack
-- React
-- Vite
-- HTML5
-- CSS3
-- JavaScript
+📁 GitHub Repository
 
-## How to Run Locally
-```bash
-npm install
-npm run dev
+👉 (Add your GitHub repository link here)
+
+📌 Project Overview
+
+Focus Cove Resort is a frontend-only web application designed with a clean layout, smooth animations, and a premium visual experience.
+The project focuses on UI quality, responsiveness, and component-based architecture.
+
+🧩 Features
+
+Full-screen hero section with booking CTA
+
+About section with background image overlay
+
+Rooms & suites with pricing cards
+
+Amenities & experiences section
+
+Image gallery with modal slider
+
+Testimonials slider
+
+Booking modal with validation
+
+Contact section
+
+Premium footer design
+
+Fully responsive (desktop, tablet, mobile)
+
+🛠️ Technologies Used
+
+React (JSX)
+
+Vite
+
+JavaScript (ES6)
+
+HTML5
+
+CSS3
+
+Git & GitHub
+
+Netlify (deployment)
