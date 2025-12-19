@@ -53,3 +53,47 @@ CSS3
 Git & GitHub
 
 Netlify (deployment)
+
+▶️ How to Run This Project Locally
+
+Follow these steps exactly:
+
+Clone the repository
+
+git clone https://github.com/VimalRamesh24/focus-cove-resort-ui.git
+
+
+Navigate into the project folder
+
+cd ResortProject
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open in browser
+
+http://localhost:5173
+
+🎬 About the Video File (Important)
+
+The hero background video (ResortHeroVd.mp4) is excluded from GitHub using .gitignore
+
+This is done intentionally to avoid GitHub size restrictions
+
+The video file is:
+
+Provided separately in a folder
+
+Shared via email as mentioned
+
+You can place the video inside:
+
+src/assets/videos/
