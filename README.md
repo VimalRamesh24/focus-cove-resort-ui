@@ -9,7 +9,7 @@ Netlify URL:
 
 📁 GitHub Repository
 
-👉 (Add your GitHub repository link here)
+👉 (https://github.com/VimalRamesh24/focus-cove-resort-ui)
 
 📌 Project Overview
 
